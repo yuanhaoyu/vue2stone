@@ -1,0 +1,37 @@
+<template>
+  <div id="Sprogress">
+    <div class="out">
+      <div class="in" :style="{ width: this.width , background: this.bgColor}"></div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Sprogress',
+  props: ['width', 'bgColor'],
+  data () {
+    return {
+      bgColor: 'red'
+    }
+  }
+}
+</script>
+
+<style scoped>
+#Sprogress{
+  width: 100%;
+  height: 11px;
+}
+.out{
+  width: 100%;
+  height: 11px;
+  background: #E0E5E5;
+}
+.in{
+  width: 0%;
+  height: 11px;
+  background: #FFE146;
+}
+</style>
+
