@@ -9,12 +9,7 @@
 <script>
 export default {
   name: 'Sprogress',
-  props: ['width', 'bgColor'],
-  data () {
-    return {
-      bgColor: 'red'
-    }
-  }
+  props: ['width', 'bgColor']
 }
 </script>
 
@@ -32,6 +27,7 @@ export default {
   width: 0%;
   height: 11px;
   background: #FFE146;
+  transition: width 1s;
 }
 </style>
 
