@@ -8,8 +8,15 @@
 
 <script>
 export default {
-  name: 'Sprogress',
-  props: ['width', 'bgColor']
+  name: 's-progress',
+  props: {
+    width: {
+      type: String
+    },
+    bgColor: {
+      type: String
+    }
+  }
 }
 </script>
 

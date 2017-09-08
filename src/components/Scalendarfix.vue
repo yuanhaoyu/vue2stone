@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'Scalendarfix',
+  name: 's-calendarfix',
   data () {
     return {
       initLists1: [],
